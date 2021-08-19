@@ -46,4 +46,6 @@ $(document).ready(function(){
 		$(this).addClass("on");
 	});
 });
-
+$(".close").click(function(){
+	$(".thankyou_message").css("display","none");
+});
